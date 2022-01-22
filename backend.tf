@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "backendpraticebibi"
+    bucket = "backendpraticebiba"
     key = "jenterraform.tfstate"
     region = "us-east-1"
     dynamodb_table = "tfstate"
